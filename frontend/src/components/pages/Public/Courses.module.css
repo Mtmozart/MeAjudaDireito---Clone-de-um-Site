@@ -1,0 +1,100 @@
+.content{
+   width: 100%;
+   padding: 5px;
+   align-items: center;
+   display: block;
+  margin: 0 auto;
+   
+}
+.content_h1{
+    text-align: center;
+    margin: 0 auto; 
+}
+.content p{
+  font-size: 1.2em;
+  color: #192A4B;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.curso_container {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.curso_container h3{
+  color: #192A4B;
+  font-size: 1.2em;
+}
+.curso_container a:link{
+  color: #192a4b;
+  font-size: 1.1em;
+  cursor: pointer;
+  text-decoration: none;
+  padding-top: 10px;
+}
+.curso_container a:visited{
+  color: #3f7d20;
+  font-size: 1.1em;
+  cursor: pointer;
+ 
+}
+.curso_container a:hover{
+  color: #3f7d20;
+  font-size: 1.1em;
+  cursor: pointer;
+  text-decoration: underline;
+ 
+}
+
+.curso_card {
+  width: 22%;
+  margin: 1.5%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.curso_card_image {
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 100%;
+  margin-bottom: 1.2em;
+  border-radius: 20px;
+}
+
+/*Medias queries*/
+@media (max-width: 500px){
+  .curso_card {
+    width: 70%;
+    margin: 1.5%;
+   }
+  .curso_container {
+    justify-content: center;
+  }
+  .content_h1{
+    font-size: 1em;
+  }
+  .curso_container a:link{
+    font-size: 1em;
+  }
+  .curso_card_image{
+    height: 300px;
+  }
+}
+@media (max-width: 980px) and (min-width: 700px){
+  .curso_card {
+    width: 28%;
+    margin: 2%;
+   }
+  }
+@media (max-width: 699px) and (min-width: 501px){
+  .curso_card {
+    width: 45%;
+    margin: 2%;
+   }
+}
+
+

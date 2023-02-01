@@ -1,0 +1,136 @@
+
+.content{
+    width: 100%;
+    margin: 0 auto;   
+    display: inline-block;
+}
+.content h3{
+    color: #192A4B;
+    text-align: center;
+    padding-top: 10px;
+} 
+.content h4{
+  color: #192A4B;
+  text-align: center;
+  padding-top: 10px;
+} 
+.content p{
+    text-align: center;
+    font-size: 1.2em;
+    color: #192A4B;
+}
+.categorias{
+ display: flex;
+ max-width: 200px;
+ text-decoration: none;
+}
+.categorias span{
+   color: #192A4B;
+   font-size: 1.1em;
+}
+.content_titulo_materia{
+    padding: 20px;
+}
+/*Parte do formulário*/
+.cursoslist_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2em;
+    color: #192A4B;
+    
+
+}
+.cursoslist_header a {
+    text-decoration: none;
+    background-color: #192A4B;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+    padding: 0.5em 0.8em;
+    border-radius: 5px;
+    border: 2px solid #192A4B;
+    margin-top: 9px;
+  }
+
+  .cursoslist_header a:hover {
+    background-color: transparent;
+    color: #fff;
+    color: #192A4B;
+  }
+
+  .cursoslist_header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cursoslist_row {
+    border-bottom: 1px solid #192A4B;
+    padding: 1em;
+    margin: 1em;
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+
+  .cursoslist_row span {
+    min-width: 100px;
+  }
+  
+  .actions {
+    margin-left: auto;
+  }
+
+  .actions a {
+    text-decoration: none;
+    color: #192A4B;
+    border: 2px solid #192A4B;
+    border-radius: 5px;
+    padding: 7px 12px;
+    background-color: #fff;
+    margin-left: 1em;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 12px;
+  }
+  
+.actions button {
+  text-decoration: none;
+  color: #000000;
+  border: 2px solid #000000;
+  border-radius: 5px;
+  padding: 7px 12px;
+  background-color: #FF0000;
+  margin-left: 1em;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 12px;
+}
+
+.actions a:hover {
+    background-color: #192A4B;
+    color: #fff;
+}
+
+.actions button:hover {
+  background-color: #B22222;
+  color: #fff;
+}
+/*Css das categorias válidas*/
+.categories{
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  flex-wrap: wrap;
+  width: 100%;
+  color:#192A4B;
+  font-size: 1.1em;
+}
+
+.categories_child{
+  width: 20%;
+  height: 40px;
+  justify-content: center;
+  padding-left: 20px;
+}

@@ -1,0 +1,41 @@
+.form_container{
+    max-width: 300px;
+    margin: 0  auto;
+    background-color: #fff;
+    border-radius: 15px;
+    margin-top: 30px;
+
+}
+
+.form_container input[type="submit"]{
+    border-radius: 5px;
+    background-color: #192A4B;
+    color: white;
+    border: 1px solid #3F7D20;
+    min-width: 100px;
+    min-height: 2.5em;
+    width: 100%;
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.form_container input[type="submit"]:hover{
+    background-color: #3F7D20;
+    border: 1px solid  #192A4B;
+       font-weight: bold;
+}
+.form_container h1{
+    color: #192A4B;
+    text-align: center;
+}
+
+/*Form by courses*/
+.preview_course_images{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+    width: 100px;
+    height: 100px;
+    margin-left: 1em;
+}

@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    float: right;
+    z-index: 20;
+    position: absolute;
+    float: right;
+    
+  
+   
+}
+.message {
+    max-width: 60%;
+    padding: 1em;
+    border: 1px solid #000;
+    margin: 1.2em auto 0;
+    text-align: center;
+    border-radius: 5px;
+  
+    
+    }
+
+    .success{
+        color: #155724;
+        background-color: #D4EDDA;
+        border-color: #C3E6CB;
+      
+    }
+
+    .error{
+        color: #721c24;
+        background-color: #F8D7DA;
+        border-color: #f5c6cb;
+      
+    }

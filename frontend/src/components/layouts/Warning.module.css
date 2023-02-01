@@ -1,0 +1,43 @@
+.warning{
+     border: 1px solid #fff;
+     border-radius: 25px;
+    background-color: #3F7D20;
+    color: #fff;
+    font-size: 1em;
+    height: 100px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    width: 50%;
+    padding: 10px;
+     }
+.container{
+    display: block;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    z-index: 50;   
+}
+
+.container button{
+    background-color: #192A4B;
+    width: 30%;
+    border: 1px solid #fff;
+    border-radius: 25px;
+    margin-top: 5px;
+    color: #fff;
+    font-size: 1em;
+}
+.container button:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: #192A4B;
+    border: 1px solid #192A4B;
+}
+
+@media(max-width: 900px){
+
+    .warning{
+        width: 100%;
+        font-size: 0.9em;
+    }
+}

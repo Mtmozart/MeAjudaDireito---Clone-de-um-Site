@@ -1,0 +1,20 @@
+.container{
+    width: 1000px;
+    display: block;
+    margin: 0 auto;
+}
+.container h1{
+    text-align: center;
+    color: #192A4B;
+}
+.container p, ul, li{
+    margin: 10px;
+}
+.notFound{
+    text-align: center;
+    font-size: 1.5em;
+}
+.container a{
+    color: #3f7d20;
+    text-decoration: none;
+}
